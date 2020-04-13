@@ -1,6 +1,8 @@
-https://sl1673495.github.io/vue-reactive/. 请在控制台打印出data后尽情玩耍。
 
-用法:
+# 运行
+npm run serve
+
+# 用法:
 import { reactive, computed, watch, Watcher } from '../src'
 
 const data = reactive({
@@ -34,6 +36,6 @@ watch(
     console.log('newVal: ', newVal)
     console.log('old: ', oldVal)
   }
-)
+);
 
-;(window as any).data = data
+(window as any).data = data
